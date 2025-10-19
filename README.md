@@ -1,7 +1,6 @@
-![Header](./header2.png)
-![Langages](./langages.png)
-
-![EOF](./eof.png)
+![Header](./header3.png)
+![Langages](./langages3.png)
+![EOF](./eof3.png)
 
 Crédits:
 
