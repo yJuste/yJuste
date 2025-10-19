@@ -1,5 +1,5 @@
 ![Header](./header3.png)
-![EOF](./eof7.png)
+![EOF](./eof8.png)
 
 Crédits:
 
