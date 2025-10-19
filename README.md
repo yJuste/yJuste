@@ -1,9 +1,7 @@
 ![Header](./header2.png)
 ![Langages](./langages.png)
 
-# EOF
-
-Modifié le 19 Octobre 2025.
+![EOF](./eof.png)
 
 Crédits:
 
