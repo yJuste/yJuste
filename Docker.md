@@ -25,7 +25,7 @@ https://docs.docker.com/engine/install/debian/
 help, -v, ps -a, images, rm [C_ID],  rmi [I_ID]
 docker build -t [I_NAME] [dossier], run [--rm] -it [I_NAME]
 start [-ai] [C_ID], stop [C_ID], exec -it [C_ID] bash
-cp [C_ID]:[src] [dst]
+cp [src] [C_ID]:[dst]
 
 volume mount: run -it [--rm] -v [path/volume]:[D_path] [I_NAME]
 volume management ( run-le comme mapper ) ( docker volume + ): create [V_NAME], ls, rm [V_NAME], inspect [V_NAME]

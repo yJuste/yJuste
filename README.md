@@ -1,4 +1,4 @@
-# Just_42
+# Just\_42
 
 ## // INTRO
 
@@ -8,44 +8,54 @@ Voici le tronc commun de 42, tous les exos sont affichés.
 
 * Le Milestone 0:
 
-- [Just_Libft](https://github.com/yJuste/Just_Libft)
+- [Just\_Libft](https://github.com/yJuste/Just\_Libft)
 
 * Le Milestone 1:
 
-- [Just_Born2BeRoot](https://github.com/yJuste/Just_Born2beRoot)
-- [Just_Get_Next_Line](https://github.com/yJuste/Just_Get_Next_Line)
-- [Just_Printf](https://github.com/yJuste/Just_Printf)
+- [Just\_Born2BeRoot](https://github.com/yJuste/Just\_Born2beRoot)
+- [Just\_Get\_Next\_Line](https://github.com/yJuste/Just\_Get\_Next\_Line)
+- [Just\_Printf](https://github.com/yJuste/Just\_Printf)
 
 * Le Milestone 2:
 
-- [Just_Push_Swap](https://github.com/yJuste/Just_Push_Swap)
-- [Just_Minitalk](https://github.com/yJuste/Just_Minitalk)
-- [Just_Fdf](https://github.com/yJuste/Just_Fdf)
-- [Just_Fractol](https://github.com/yJuste/Just_Fractol)
-- [Just_So_Long](https://github.com/yJuste/Just_So_long)
-
-- [Eval 2: Exos_Pisicine](https://github.com/yJuste/Just_Eval)
+- [Just\_Push\_Swap](https://github.com/yJuste/Just\_Push\_Swap)
+- [Just\_Minitalk](https://github.com/yJuste/Just\_Minitalk)
+- [Just\_Fdf](https://github.com/yJuste/Just\_Fdf)
+- [Just\_Fractol](https://github.com/yJuste/Just\_Fractol)
+- [Just\_So\_Long](https://github.com/yJuste/Just\_So\_long)
+- [Eval 2: Exos\_Pisicine](https://github.com/yJuste/Just\_Eval)
 
 * Le Milestone 3:
 
-- [Just_Philosophers](https://github.com/yJuste/Just_Philosophers)
-- [Just_Minishell](https://github.com/yJuste/Just_Minishell)
-
-- [Eval 3: ft_printf/gnl](https://github.com/yJuste/Just_Eval)
+- [Just\_Philosophers](https://github.com/yJuste/Just\_Philosophers)
+- [Just\_Minishell](https://github.com/yJuste/Just\_Minishell)
+- [Eval 3: ft\_printf/gnl](https://github.com/yJuste/Just\_Eval)
 
 * Le Milestone 4:
 
-- [Just_NetPractice](https://github.com/yJuste/Just_NetPractice)
-- [Just_CPP](https://github.com/yJuste/Just_CPP)
-- [Just_miniRT](https://github.com/yJuste/Just_miniRT) (en cours)
-- [Eval 4: Microshell](https://github.com/yJuste/Just_Eval)
+- [Just\_NetPractice](https://github.com/yJuste/Just\_NetPractice)
+- [Just\_CPP](https://github.com/yJuste/Just\_CPP)
+- [Just\_miniRT](https://github.com/yJuste/Just\_miniRT)
+- [Eval 4: Microshell](https://github.com/yJuste/Just\_Eval)
+
+* Le Milestone 5:
+
+- [Just\_Webserv](https://github.com/yJuste/Webserv)
+- [Just\_Inception](https://github.com/yJuste/Inception)
+- [Just\_CPP](https://github.com/yJuste/Just\_CPP)
+- [Eval 5: Operator/Bsq/GameOfLife](https://github.com/yJuste/Just\_Eval)
+
+* Le Milestone 6:
+
+- [Just\_ft\_transcendence](https://github.com/yJuste/ft\_transcendence)
+- [Eval 5: Idk](https://github.com/yJuste/Just\_Eval)
 
 * Other Ressources
 
-- [Just_Piscine](https://github.com/yJuste/Just_Piscine)
-- [Just_Reloaded](https://github.com/yJuste/Just_Reloaded)
-- [Just_Lib](https://github.com/yJuste/Just_Lib)
-- [Just_Eval](https://github.com/yJuste/Just_Eval)
+- [Just\_Piscine](https://github.com/yJuste/Just\_Piscine)
+- [Just\_Reloaded](https://github.com/yJuste/Just\_Reloaded)
+- [Just\_Lib](https://github.com/yJuste/Just\_Lib)
+- [Just\_Eval](https://github.com/yJuste/Just\_Eval)
 
 ## /. HELP
 
@@ -87,6 +97,14 @@ git reset --hard <id-commit>
 git push --force
 ```
 → suite à reset, tu appliques les modifications.
+``` sh
+git cherry-pick <id-commit>
+```
+→ choisit quel commit tu veux push.
+``` sh
+git pull origin <from branch> --no-rebase
+```
+→ recupere toute la branche
 
 * For adding a tag:
 
@@ -230,14 +248,14 @@ leaks Report Version: 4.0, multi-line stacks
 Process 71341: 185 nodes malloced for 14 KB
 Process 71341: 1 leak for 128 total leaked bytes.
 
-STACK OF 1 INSTANCE OF 'ROOT LEAK: <malloc in ft_calloc>':
+STACK OF 1 INSTANCE OF 'ROOT LEAK: <malloc in ft\_calloc>':
 4   dyld                                  0x1877a8274 start + 2840
 3   philo                                 0x1043365ec main + 104
-2   philo                                 0x1043366a8 ft_init + 120
-1   philo                                 0x104337bfc ft_calloc + 48
-0   libsystem_malloc.dylib                0x1879627cc _malloc_zone_malloc_instrumented_or_legacy + 148 
+2   philo                                 0x1043366a8 ft\_init + 120
+1   philo                                 0x104337bfc ft\_calloc + 48
+0   libsystem\_malloc.dylib                0x1879627cc \_malloc\_zone\_malloc\_instrumented\_or\_legacy + 148 
 ====
-    1 (128 bytes) ROOT LEAK: <malloc in ft_calloc 0x137f04200> [128]
+    1 (128 bytes) ROOT LEAK: <malloc in ft\_calloc 0x137f04200> [128]
 ```
 
 ### TMUX
@@ -296,7 +314,7 @@ ssh username@hostname.local
 ```
 * Pour se connecter via une clé privée spécifique. Tu dois ajouter le chemin.
 ```sh
-ssh -i chemin/id_rsa
+ssh -i chemin/id\_rsa
 ```
 
 ## SSH-KEYGEN
@@ -306,7 +324,7 @@ ssh -i chemin/id_rsa
 * Aller voir qui explique parfaitement comment fonctionne les types de clé et les chiffrements: [Les clés SSH](https://www.acceis.fr/comment-casser-des-cles-privees-ssh-chiffrees/)
 * Voici un exemple:
 ```sh
-ssh-keygen -t ed25519 -Z aes256-gcm@openssh.com -b 256 -f ~/.ssh/id_rsa -o -a 500
+ssh-keygen -t ed25519 -Z aes256-gcm@openssh.com -b 256 -f ~/.ssh/id\_rsa -o -a 500
 ```
 * Le flag `-t` spécifie le type de clé. Les plus connus sont le RSA et le ed25519.
 * Le flag `-Z` spécifie le chiffrement. Le plus connu est le AES.
@@ -316,9 +334,9 @@ ssh-keygen -t ed25519 -Z aes256-gcm@openssh.com -b 256 -f ~/.ssh/id_rsa -o -a 50
 * Le flag `-a` le nombre d'itération.
 * Si tu as ajouté une passphrase, il se peut que à chaque utilisation de la clé ssh, tu dois mettre celui-ci. Pour pallier à ce problème, tu peux le mettre dans l'agent ssh.
 ```sh
-ssh-add ~/.ssh/id_rsa
+ssh-add ~/.ssh/id\_rsa
 ```
-* Le nom id_rsa peut se changer en fonction du nom donné du fichier.
+* Le nom id\_rsa peut se changer en fonction du nom donné du fichier.
 
 ### CODIUM (COPILOT POUR XCODE) //
 
@@ -349,9 +367,9 @@ lldb mon-fichier.c [paramètres]
 ``` sh
 (lldb ) b main
 ```
-Ceci est le main par défaut, pour une fonction comme : get_next_line(fd);
+Ceci est le main par défaut, pour une fonction comme : get\_next\_line(fd);
 ``` sh
-(lldb) b get_next_line
+(lldb) b get\_next\_line
 ```
 * Il y aura alors une interface où tu pourras naviguer, les commandes à retenir sont s, n, finish. (s = step, n = next) (tu dois juste marquer la lettre).
 * s : avancer pas à pas, instruction par instruction  
@@ -381,9 +399,9 @@ NAME = rush-02
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
-SRC =	srcs/ft_get_next_line.c	\
-	    srcs/ft_lib.c	    	\
-    	srcs/ft_lib2.c	    	\
+SRC =	srcs/ft\_get\_next\_line.c	\
+	    srcs/ft\_lib.c	    	\
+    	srcs/ft\_lib2.c	    		\
     	main.c		        	\
     	rush-01.c		        \
     	rush-02.c		        \
@@ -438,11 +456,12 @@ ar rcs libft.a *.o
 
 * Lors de la compilation, tu dois utiliser en flags `-L. -lft`
 ``` sh
-cc ft_test.c -L . -lft
+cc ft\_test.c -L . -lft
 ```
 * Cette commande signifie : J'inclus la lbrairie '-L' depuis le dossier courant '.', puis j'inclus la libft.a '-lft' ( c'est en fait le nom sans le .a et en raccourci '-l' plutôt que 'lib')
 
 ## // EOF:
 
+Modifié le 19 octobre 2025 par Juste.<br>
 Modifié le 9 octobre 2024 par Juste.<br>
 Modifié le 14 Mai 2025 par Juste.
